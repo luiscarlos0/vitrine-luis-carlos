@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitrine do Luis Carlos – Amazon Afiliados</title>
+  <meta name="description" content="Vitrine de produtos recomendados por Luis Carlos com links de afiliado da Amazon.">
+  <meta name="keywords" content="Amazon, Afiliados, Vitrine, Produtos, Recomendações, Luis Carlos">
+  <meta name="author" content="Luis Carlos">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0e6f6e4.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    header {
+      background-color: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    nav {
+      background-color: #ff9900;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #232f3e;
+      margin-bottom: 10px;
+    }
+    .product {
+      background-color: #fff;
+      border-left: 5px solid #ff9900;
+      margin-bottom: 20px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .product img {
+      max-width: 150px;
+      border-radius: 4px;
+    }
+    .product h3 {
+      margin-top: 0;
+    }
+    .offer-tag {
+      background-color: #ff0000;
+      color: white;
+      font-size: 12px;
+      padding: 3px 6px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-left: 8px;
+    }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      gap: 15px;
+      padding: 10px 0;
+    }
+    .carousel .product {
+      min-width: 300px;
+      flex-shrink: 0;
+    }
+    .dark-mode {
+      background-color: #1e1e1e;
+      color: #f4f4f4;
+    }
+    .dark-mode header, .dark-mode footer {
+      background-color: #111;
+    }
+    .dark-mode .product {
+      background-color: #2a2a2a;
+    }
+    .toggle-dark {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff9900;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    footer {
+      background-color: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #ff9900;
+      text-decoration: none;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 20px;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #ff9900;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      .product {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .carousel {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📦 Vitrine do Luis Carlos</h1>
+    <p>Produtos recomendados com confiança – direto da Amazon!</p>
+  </header>
+
+  <nav>
+    <a href="#livros">Livros</a>
+    <a href="#eletronicos">Eletrônicos</a>
+    <a href="#games">Games</a>
+    <a href="#casa">Casa</a>
+    <a href="#estilo">Estilo</a>
+    <a href="#contato">Contato</a>
+    <a href="#top">⭐ Destaques</a>
+  </nav>
+
+  <section id="top">
+    <h2>🌟 Destaques</h2>
+    <div class="carousel">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61dXTXzGBXL._AC_SX679_.jpg" alt="Kindle Paperwhite">
+        <div>
+          <h3>Kindle Paperwhite <span class="offer-tag">🔥 Oferta</span></h3>
+          <p>Leitura sem reflexo, bateria duradoura e milhares de livros ao alcance.</p>
+          <p><a href="https://www.amazon.com.br/dp/B09TM1G31F?tag=luiscarlos-20" target="_blank">👉 Ver na Amazon</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="livros">
+    <h2>📚 Livros</h2>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81aShG3Lb3L._AC_SY679_.jpg" alt="Mindset">
+      <div>
+        <h3>"Mindset" – Carol Dweck <span class="offer-tag">🔥 Oferta</span></h3>
+        <p>Transforme sua vida com a força da mentalidade.</p>
+        <p><a href="https://www.amazon.com.br/dp/8543104211?tag=luiscarlos-20" target="_blank">👉 Ver na Amazon</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="eletronicos">
+    <h2>🔌 Eletrônicos</h2>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71k45hZkLmL._AC_SX679_.jpg" alt="Echo Dot">
+      <div>
+        <h3>Echo Dot 5ª Geração</h3>
+        <p>Controle sua casa com a Alexa e ouça músicas com qualidade.</p>
+        <p><a href="https://www.amazon.com.br/dp/B09B8V8W8V?tag=luiscarlos-20" target="_blank">👉 Ver na Amazon</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="games">
+    <h2>🎮 Games</h2>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81w+3k4U9mL._AC_SX679_.jpg" alt="Controle Xbox">
+      <div>
+        <h3>Controle Xbox Series X</h3>
+        <p>Desempenho e conforto para suas partidas.</p>
+        <p><a href="https://www.amazon.com.br/dp/B08HRX4FBB?tag=luiscarlos-20" target="_blank">👉 Ver na Amazon</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="casa">
+    <h2>🏠 Casa</h2>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61p1zZz0YDL._AC_SX679_.jpg" alt="Aspirador Robô">
+      <div>
+        <h3>Aspirador Robô Inteligente</h3>
+        <p>Limpeza automática e eficiente para sua casa.</p>
+        <p><a href="https://www.amazon.com.br/dp/B08P2D1JZZ?tag=luiscarlos-20" target="_blank">👉 Ver na Amazon</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="estilo">
+    <h2>🧥 Estilo</h2>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61ZzWZz0YDL._AC_SX679_.jpg" alt="Relógio Masculino">
+      <div>
+        <h3>Relógio Masculino Casio</h3>
+        <p>Estilo clássico e durabilidade para o dia a dia.</p>
+        <p><a href="https://www.amazon.com.br/dp/B000GAYQKY?tag=luiscarlos-20" target="_blank">👉 Ver na Amazon</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>📬 Fale Comigo</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea rows="4" placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luis Carlos – Afiliado Amazon. Todos os direitos reservados.</p>
+    <p><a href="mailto:contato@luiscarlos.com">Contato por e-mail</a></p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <button class="toggle-dark" onclick="document.body.classList.toggle('dark-mode')">🌙</button>
+
+</body>
+</html>
